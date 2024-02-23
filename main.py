@@ -52,6 +52,7 @@ def SolveCaptcha(c):
 
 
 def main():
+    SUCCESS = 0
     global MESSAGES
     global FORCE_QUIT
     print(Fore.CYAN + "VK Commenter\n")
@@ -82,7 +83,9 @@ def main():
         else:
             print(Fore.GREEN + "[+] Posted on", link)
             take_screenshots(link)
-            print(Fore.GREEN + "[+] Screenshot saved", link)
+            print(Fore.MAGENTA + "[+] Screenshot saved", link)
+    else:
+        print(Fore.YELLOW + f"[!] Posted: {SUCCESS}")
 
 
 if __name__ == "__main__":
