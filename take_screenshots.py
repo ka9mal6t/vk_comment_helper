@@ -17,8 +17,7 @@ def take_screenshots(url: str):
     options.add_argument('--disable-blink-features=AutomationControlled')
 
     # Web driver (Chrome)
-    s = Service(r'chromedriver.exe')
-    driver = webdriver.Chrome(service=s)
+    driver = webdriver.Chrome()
 
     # Upload page
     driver.get(url)

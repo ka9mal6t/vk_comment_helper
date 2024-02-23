@@ -37,9 +37,6 @@ APP_ID = 123456
 ```
 * `APP_ID` must be obtained from VK Developers. [VK Developers](https://dev.vk.com/);
 
-...is read from `chromdriver.exe`
-* `chromdriver.exe` must be obtained from Google (the browser and driver versions must match). [Google Driver](https://chromedriver.chromium.org/downloads)
-
 ...is read from `messages.txt`
 ```txt
 message1
