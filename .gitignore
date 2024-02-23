@@ -240,6 +240,5 @@ cython_debug/
 *.json
 links.txt
 messages.txt
-chromedriver.exe
 screenshots
 config.py
