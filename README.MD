@@ -60,13 +60,13 @@ https://vk.com/wall-example3
 Clone the project  
 
 ~~~bash  
-  git clone https://github.com/ka9mal6t/
+  git clone https://github.com/ka9mal6t/vk_comment_helper.git
 ~~~
 
 Go to the project directory  
 
 ~~~bash  
-  cd 
+  cd vk_comment_helper
 ~~~
 
 Install dependencies and add [files](#Files)
