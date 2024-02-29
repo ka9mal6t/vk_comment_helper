@@ -34,7 +34,7 @@ def take_screenshots(url: str):
     wait = WebDriverWait(driver, 10)
     wait.until(EC.visibility_of(elements[0]))
 
-    # JavaScript код для скрытия элемента с заданным классом
+    # JavaScript
     js_code = """
     var element = document.querySelector('.PageBottomBanner');
     if (element) {
@@ -42,7 +42,7 @@ def take_screenshots(url: str):
     }
     """
 
-    # Выполнение JavaScript кода
+    # JavaScript run
     driver.execute_script(js_code)
 
     # Take screenshots
